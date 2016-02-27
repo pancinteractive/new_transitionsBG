@@ -1,0 +1,52 @@
+settings = 
+{orientation =
+	{
+        default = "landscapeLeft",
+       	supported =
+       	{
+           	"landscapeLeft",
+           	"landscapeRight",
+       	},
+	},
+	android =
+    {
+    {
+        googlePlayGamesAppId = "689111079595" -- Your Google Play Games App Id
+    },
+		usesPermissions =
+        {
+            "com.android.vending.BILLING", -- IAP
+            "android.permission.VIBRATE",
+            "android.permission.INTERNET", -- ads
+			"android.permission.WRITE_EXTERNAL_STORAGE", -- pic capturing
+            "android.permission.ACCESS_NETWORK_STATE", -- ads
+            "android.permission.READ_PHONE_STATE", -- ads
+			},
+    },
+	iphone =
+	{
+		plist =
+		{
+	        CFBundleIconFile = "Icon.png",
+	        CFBundleIconFiles = {
+            "Icon.png",
+            "Icon@2x.png",
+            "Icon-60.png",
+            "Icon-60@2x.png",
+            "Icon-60@3x.png",
+            "Icon-72.png",
+            "Icon-72@2x.png",
+            "Icon-76.png",
+            "Icon-76@2x.png",
+            "Icon-Small-40.png",
+            "Icon-Small-40@2x.png",
+            "Icon-Small-40@3x.png",
+            "Icon-Small-50.png",
+            "Icon-Small-50@2x.png",
+            "Icon-Small.png",
+            "Icon-Small@2x.png",
+            "Icon-Small@3x.png",
+	        },
+		},
+	}
+}
